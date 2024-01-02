@@ -1,10 +1,10 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 98%;
   z-index: 1;
   display: flex;
-  padding: 15px 15px 15px 5px;
+  padding: 15px 15px 15px 10px;
   justify-content: space-between;
   height: 60px;
   align-items: center;
@@ -12,33 +12,33 @@
 
 .gamestop_image {
   height: 40px;
+  cursor: pointer;
 }
 
 .menu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 56px;
+  height: 52px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.menu:hover span {
+  color: rgb(203, 5, 5);
 }
 .menu img {
-  height: 42px;
+  height: 40px;
 }
 
 /* search bar container */
 .search-bar {
   position: relative;
   font-size: 20px;
-  width: 60%;
+  width: 50%;
   padding: 5px 0px 8px 43px;
   border: 0;
   background-color: rgb(234, 234, 234);
 }
-/* .search-bar:focus {
-  background-color: white;
-  border: 1;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-} */
 
 .search-bar input {
   font-size: 17px;
@@ -83,4 +83,26 @@
 }
 .search-bar:focus-within {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.trade-icon,
+.gamestop-icon,
+.sign-icon,
+.cart-icon {
+  height: 28px;
+  width: 30px;
+}
+
+.icons span {
+  font-size: 13px;
+}
+.icons:hover span {
+  color: rgb(203, 5, 5);
 }
