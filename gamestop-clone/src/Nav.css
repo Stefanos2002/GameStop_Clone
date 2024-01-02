@@ -29,7 +29,7 @@
   position: relative;
   font-size: 20px;
   width: 60%;
-  padding: 13px 13px 13px 53px;
+  padding: 5px 0px 8px 43px;
   border: 0;
   background-color: rgb(234, 234, 234);
 }
@@ -41,8 +41,8 @@
 } */
 
 .search-bar input {
-  font-size: 20px;
-  width: calc(100% - 53px); /* Adjusted width to account for padding and icon */
+  font-size: 17px;
+  width: calc(100% - 33px); /* Adjusted width to account for padding and icon */
   border: none;
   background-color: rgb(234, 234, 234);
 }
