@@ -1,12 +1,18 @@
+.navbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 98%;
   z-index: 1;
   display: flex;
   padding: 15px 15px 15px 10px;
   justify-content: space-between;
-  height: 60px;
+  height: 40px;
   align-items: center;
 }
 
@@ -37,14 +43,14 @@
   width: 50%;
   padding: 5px 0px 8px 43px;
   border: 0;
-  background-color: rgb(234, 234, 234);
+  background-color: #eee;
 }
 
 .search-bar input {
   font-size: 17px;
   width: calc(100% - 33px); /* Adjusted width to account for padding and icon */
   border: none;
-  background-color: rgb(234, 234, 234);
+  background-color: #eee;
 }
 
 .search-bar input:focus {
@@ -105,4 +111,64 @@
 }
 .icons:hover span {
   color: rgb(203, 5, 5);
+}
+
+/* hidden nav */
+.hidden-nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* top: 90px; */
+  z-index: 1;
+  font-size: 0.857rem;
+  background-color: #eee;
+  /* visibility: hidden; */
+}
+.nav-links {
+  list-style: none;
+  font-weight: 600;
+  display: inline-flex;
+  gap: 2rem;
+  white-space: nowrap;
+  margin: 18px 10px 3px 10px;
+  padding-left: 10px;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.vertical-divider {
+  border-left: 1px solid #c3c3c3;
+  height: 18px;
+  margin: 0 -0.5rem;
+  width: 0;
+}
+
+.nav-track {
+  align-items: center;
+  display: inline-flex;
+  gap: 1.5rem;
+}
+.track-order,
+.nav-store {
+  align-items: center;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.nav-track a {
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+}
+.nav-track a:hover {
+  text-decoration: underline;
 }
