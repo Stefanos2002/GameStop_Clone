@@ -103,22 +103,13 @@ function Nav() {
             <a href="">Digital Store</a>
           </li>
           <li>
-            <a href="">Shop My Store</a>
-          </li>
-          <li>
-            <a href="/">Shop My Store</a>
-          </li>
-          <li>
             <a href="/">New Releases</a>
           </li>
           <li>
-            <a href="/">Shop My Store</a>
+            <a href="/">Top Deals</a>
           </li>
           <li>
-            <a href="">Top Deals</a>
-          </li>
-          <li>
-            <a href="">Pre-Owned</a>
+            <a href="/">Pre-Owned</a>
           </li>
           <li>
             <a href="/">Collectibles</a>
