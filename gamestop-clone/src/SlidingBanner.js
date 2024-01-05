@@ -12,6 +12,12 @@ const SlidingBanner = ({ slides }) => {
   };
   return (
     <div className="parent-container">
+      <div className="left-arrow" onClick={goToPrevious}>
+        &#8630;
+      </div>
+      <div className="right-arrow" onClick={goToNext}>
+        &#8631;
+      </div>
       <div style={slideStyles}></div>
     </div>
   );

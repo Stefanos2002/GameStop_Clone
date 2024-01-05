@@ -18,9 +18,11 @@ function App() {
       <Nav />
       <PromoBanner />
       <FirstAdd />
-      <div className="sliding-banner">
-        <SlidingBanner slides={slides} />
-      </div>
+      <a href="/">
+        <div className="sliding-banner">
+          <SlidingBanner slides={slides} />
+        </div>
+      </a>
     </div>
   );
 }

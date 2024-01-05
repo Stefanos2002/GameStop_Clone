@@ -1,8 +1,6 @@
-.first-png img {
-  object-fit: contain;
-  width: 100%;
-}
 .main-wrapper {
-  /* position: relative; */
-  height: 100%;
+}
+.first-png img {
+  width: 100%;
+  vertical-align: middle;
 }
