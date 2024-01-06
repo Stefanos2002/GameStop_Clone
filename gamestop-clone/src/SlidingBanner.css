@@ -7,18 +7,35 @@
   top: 40%;
   transform: "translate(0, -50%)";
   left: 32px;
-  font-size: 40px;
-  color: #fff;
+  font-size: 36px;
+  color: rgba(256, 256, 256, 0.3);
   z-index: 1;
   cursor: pointer;
+  transition: all 0.2s;
 }
 .right-arrow {
   position: absolute;
   top: 40%;
   transform: "translate(0, -50%)";
   right: 32px;
-  font-size: 40px;
-  color: #fff;
+  font-size: 36px;
+  color: rgba(256, 256, 256, 0.3);
   z-index: 1;
   cursor: pointer;
+  transition: all 0.2s;
+}
+.right-arrow:hover,
+.left-arrow:hover {
+  color: white;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.dots {
+  margin: 0 4px;
+  cursor: pointer;
+  font-size: 35px;
 }
